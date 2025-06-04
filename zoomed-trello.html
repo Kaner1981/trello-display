@@ -15,15 +15,22 @@
       position: absolute;
       top: 0;
       left: 0;
-      transform: scale(0.68);
+      transform: scale(0.67);
       transform-origin: top left;
       width: 150vw;
       height: 150vh;
       border: none;
     }
   </style>
+
+  <script>
+    // Reload the page every 15 minutes
+    setTimeout(() => {
+      window.location.reload(true);
+    }, 900000); // 900,000 ms = 15 minutes
+  </script>
 </head>
 <body>
- <iframe src="https://trello.com/b/Y7xOc7BD/mazak-cell-tool-planning?embed=true"></iframe>
+  <iframe src="https://trello.com/b/Y7xOc7BD/mazak-cell-tool-planning?embed=true"></iframe>
 </body>
 </html>
